@@ -5,10 +5,10 @@ source_suffix = {'.rst': 'restructuredtext'}
 master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
-project = '<acronym>'
-release = '<version>'
-html_title = "<acronym>"
-author = '<author>'
+project = 'AAR-REQ'
+release = '0.1'
+html_title = "AAR-REQ"
+author = 'Anton Sokolov'
 
 numfig = True
 
@@ -21,10 +21,10 @@ latex_documents = [
 
 # --- Cover metadata: single source of truth for index.rst (via substitutions)
 # and the LaTeX cover (via \newcommand interpolation below). Edit here.
-cover_title    = '<acronym>'
-cover_series   = '<series or category>'
-cover_subject  = '<subject line>'
-cover_subtitle = '<subtitle of this document>'
+cover_title    = 'AAR-REQ'
+cover_series   = 'FG-TIDA proposal for a new work item'
+cover_subject  = 'Accountability and Attribution After an Agent Has Acted'
+cover_subtitle = 'Record-side requirements, draft 0.1'
 
 extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib.openapi', 'sphinx_copybutton']
 # PlantUML command. On CI (GitHub Actions / Read the Docs) the `plantuml` package
@@ -109,10 +109,10 @@ html_theme_options = {
 }
 html_logo = "images/TIDA_logo.png"
 html_show_sourcelink = False
-copyright = '<year>, <author>'
+copyright = '2026, Anton Sokolov'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
-html_extra_path = ['yaml']
+html_extra_path = []
 
 #
 # Latex/PDF Output Configuration
@@ -179,7 +179,7 @@ latex_elements = {
 %% Neutralise sphinxmanual.cls's TOC page-numbering swaps so they don't fight
 %% our \osiafrontmatter / \osiamainmatter macros. Also override \@title /
 %% \release here (after Sphinx writes them from project / release in conf.py)
-%% so the running header reads "Rec. ITU-T, Release <acronym>" in the PDF only,
+%% so the running header reads "FG-TIDA, Release AAR-REQ 0.1" in the PDF only,
 %% without touching the HTML.
 \AtBeginDocument{%
   \renewcommand{\sphinxtableofcontents}{%
@@ -189,8 +189,8 @@ latex_elements = {
     \endgroup
     \if@openright\cleardoublepage\else\clearpage\fi
   }%
-  \title{Rec. ITU-T}%
-  \release{<acronym>}%
+  \title{FG-TIDA}%
+  \release{AAR-REQ 0.1}%
 }
 
 %% Hide the next \chapter heading. Used to suppress the "Overview" chapter
@@ -306,7 +306,7 @@ latex_elements = {
       \node[anchor=north west, inner sep=0pt, text width=18cm]
         at ([xshift=1.5cm, yshift=-4.8cm]current page.north west)
         {\sffamily\hyphenpenalty=10000\exhyphenpenalty=10000\sloppy%
-         {\huge Recommendation}\\[0.4cm]
+         {\huge Proposed work item}\\[0.4cm]
          {\Huge\bfseries \coverTitle}\\[1.2cm]
          {\Large \coverSeries}\\[0.5cm]
          {\Large \coverSubject}};
@@ -368,7 +368,7 @@ def setup(app):
 
 if 'itu' in tags:
     rst_prolog += '''
-.. |osia| replace:: ITU-T <acronym>
+.. |osia| replace:: ITU-T AAR-REQ
 .. |specification| replace:: recommendation
 .. |chapter| replace:: clause
     '''

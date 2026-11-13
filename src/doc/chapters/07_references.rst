@@ -1,19 +1,22 @@
 References
 ============
 
-[JSON Web Token]
-    IETF RFC 8725, *JSON Web Token Best Current Practices*,
-    
-    https://datatracker.ietf.org/doc/html/rfc8725
+[ITU-T A.7]
+    Recommendation ITU-T A.7, *Focus groups: Establishment and working procedures*.
 
-[OpenAPI]
-    OpenAPI Specification v3.0.3 (2020),
-    
-    https://spec.openapis.org/oas/v3.0.3
+[FG-TIDA ToR]
+    FG-TIDA Terms of Reference,
 
-[WSQ]
-    NIST; FBI; *Los Alamos Natinal Laboratory.  Wavelet Scalar Quantization algorithm 2: PDF 2.0*,
-    
-    `https://www.nist.gov/system/files/documents/2020/09/03/11-wsq_bradley_brislawn_standard_ieee_iscs_-_19940530.pdf <https://www.nist.gov/system/files/documents/2020/09/03/11-wsq_bradley_brislawn_standard_ieee_iscs_-_19940530.pdf>`_
+    https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/ToR.aspx
 
+[WG2 charter]
+    FG-TIDA WG2, Identity, Behaviour and Enforcement for AI Agents (IBEA), charter,
 
+    https://github.com/fg-tida-wg2/wg2-ibea-charter
+
+[Use cases]
+    FG-TIDA WG0, use cases #7 and #12,
+
+    https://github.com/fg-tida-wg0/use-cases/issues/7
+
+    https://github.com/fg-tida-wg0/use-cases/issues/12

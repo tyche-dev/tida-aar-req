@@ -1,40 +1,17 @@
-# TIDA Specification Template
+# AAR-REQ: Accountability and Attribution After an Agent Has Acted
 
-**See the template live:**
-📄 **[Web page](https://fg-tida.github.io/spec-template/)** ·
-📥 **[PDF](https://fg-tida.github.io/spec-template/specification.pdf)**
+Record-side requirements. **Proposal for a new FG-TIDA work item, draft 0.1**, submitted to FG-TIDA Incubation as an
+input to the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). It is not adopted Focus Group text.
 
-The pages you see there are produced by this repository — they double as the
-template's documentation, explaining and demonstrating how to write a spec.
+📄 **[Web page](https://tyche-dev.github.io/tida-aar-req/)** ·
+📥 **[PDF](https://tyche-dev.github.io/tida-aar-req/specification.pdf)**
 
-> **Starting a new specification?** Follow
-> **[WG-ONBOARDING.md](WG-ONBOARDING.md)**. Once your repo is created, replace
-> the text of this README with a short description of *your* specification
-> (what it is, its status, and a link to its published site).
+The work item consolidates requirements R1–R8, the lineage requirements and the absence states developed in
+[FG-TIDA/themes#1](https://github.com/FG-TIDA/themes/issues/1), each clause under its author's name. Who proposed and
+who refined each clause is recorded in the theme 1 charter, [FG-TIDA/themes#46](https://github.com/FG-TIDA/themes/pull/46).
 
----
+Editor: Anton Sokolov, Tyche Institute MTÜ.
 
-A specification for the FG-TIDA working groups, authored with the shared TIDA
-template: one source that builds a modern web page and a print-ready PDF, with
-support for diagrams and auto-generated API references.
+Comments and proposed changes are welcome as issues or pull requests; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Quick start
-
-1. In your Working Group's GitHub organization (`fg-tida-wg<n>`), click **Use this
-   template → Create a new repository**, named `wg<n>-<acronym>-<spec-name>`.
-2. In the new repo: **Settings → Pages → Source: GitHub Actions**.
-3. Edit the content under `src/doc/` — replace the `<placeholders>` and the
-   example text. Full instructions are in **[WG-ONBOARDING.md](WG-ONBOARDING.md)**.
-4. Push to `main`. The site and PDF publish automatically to
-   `https://fg-tida-wg<n>.github.io/<repo-name>/`.
-
-## In this repository
-
-- `src/doc/index.rst` — the document front matter (title, abstract, authors…).
-- `src/doc/chapters/` — the chapters; they explain and demonstrate how to write
-  content, then you replace them with your own.
-- `CONTRIBUTING.md` — how to contribute, and how to build, preview, and customise the document.
-- `WG-ONBOARDING.md` — the full step-by-step guide for authors.
-
-Built on the open-source [CUTEspecs](https://github.com/debora-com/CUTEspecs)
-template.
+Built with the FG-TIDA specification template, [FG-TIDA/spec-template](https://github.com/FG-TIDA/spec-template).

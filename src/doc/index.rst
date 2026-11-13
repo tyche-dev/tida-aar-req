@@ -11,44 +11,28 @@
 
 .. _chapter-overview:
 
-.. only:: html
-
-    .. admonition:: This is a document template
-        :class: tip
-
-        Replace the ``<placeholders>`` and the *lorem ipsum* text throughout with
-        your own content. This landing page is the document's front matter:
-
-        * **Abstract**, **History**, **Authors**, **Keywords** and **Foreword**
-          are standard front-matter sections — keep them and fill them in.
-        * **Chapters 1–4** demonstrate the authoring system (text, figures,
-          tables, diagrams, and API references). Read them, then replace their
-          content with your specification.
-
-        This notice appears on the web version only; it is excluded from the
-        published PDF. See the project ``CONTRIBUTING`` guide for how to build and publish.
-
-Title of this document
-========================
+Accountability and Attribution After an Agent Has Acted
+=======================================================
 
 .. only:: html
 
-    **<subtitle of this document>**
+    **Record-side requirements (AAR-REQ). Proposal for a new work item**
 
 .. raw:: latex
 
-    \begin{center}\textbf{<subtitle of this document>}\end{center}
+    \begin{center}\textbf{Record-side requirements (AAR-REQ). Proposal for a new work item}\end{center}
 
 Abstract
 --------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+When an act by an agent is questioned later, the party asking was usually not present, and establishing what happened
+can require "an investigation rather than a lookup" (FG-TIDA/themes#1). This contribution proposes a work item that
+states what an action-time record must be able to carry, and what properties every claim it carries needs, so that
+such a party can establish the execution that performed the act and, where one exists, its supported relation to a
+logical agent; under whose delegated authority; within what declared scope; and that the record is unaltered. It
+consolidates requirements R1–R8, the lineage requirements and the absence states developed in the open thread on
+themes#1 since August 2026, each clause under its author's name, and maps them to cases. It states requirements only and
+prescribes no encodings, schemas, protocols or identifiers.
 
 History
 -------
@@ -62,15 +46,15 @@ History
       - Approval
       - Focus Group
       - Working Group
-    * - <version>
-      - <title>
-      - <date>
+    * - 0.1
+      - AAR-REQ: proposal for a new work item
+      - —
       - TIDA
-      - <acronym>
+      - Incubation (proposed)
 
 To access this Document as a PDF, open the published documentation site in your web
 browser and click the PDF download link, or navigate directly to
-https://debora-com.github.io/CUTEspecs/specification.pdf.
+https://tyche-dev.github.io/tida-aar-req/specification.pdf.
 
 Authors
 -------
@@ -82,17 +66,20 @@ Authors
     * - Name
       - Affiliation
       - Contact
-    * - <Jane Doe>
-      - <Organization / Company>
-      - <jane.doe@example.com>
-    * - <John Smith>
-      - <Organization / Company>
-      - <john.smith@example.com>
+    * - Anton Sokolov (editor)
+      - Tyche Institute MTÜ, Estonia
+      - anton.sokolov@tyche.institute; GitHub @tyche-dev
+
+Contributors. The requirements come from the open thread on FG-TIDA/themes#1. Its originating proposer is Oleh
+Vasylenko (@OlehVasylenko2000), Management Company Elixir LLC (Ukraine). @danyka-icam co-drafted the lineage
+requirements and cases, and @syedofc the identity and state continuity requirements. Every clause in
+:ref:`chapter-requirements` names its author.
 
 Keywords
 --------
 
-Lorem, ipsum, dolor, consectetur, adipiscing.
+Agentic AI; accountability; attribution; action-time record; carried claim; rejection class; delegated authority;
+lineage; tamper-evidence.
 
 .. raw:: latex
 
@@ -129,14 +116,9 @@ please refer to the community's published resources.
 Note
 ----
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-voluptatem accusantium doloremque laudantium.
+This document is a proposal for a new work item, submitted to FG-TIDA Incubation as an input to the first FG-TIDA
+meeting (Paris, 30 November – 1 December 2026). It is not adopted Focus Group text. The requirement text it summarises
+stands in the posted comments listed in :ref:`chapter-annexes`.
 
 .. Intellectual Property Rights — section commented out. To restore it, remove the
    leading ".." and the indentation below, and re-add a ".. raw:: latex" block with
@@ -180,10 +162,9 @@ voluptatem accusantium doloremque laudantium.
     :numbered:
     :hidden:
 
-    chapters/01_chapter1
-    chapters/02_chapter2
-    chapters/03_chapter3
-    chapters/04_chapter4/index
+    chapters/01_scope
+    chapters/02_requirements
+    chapters/03_relation_to_other_work
+    chapters/04_programme_of_work
     chapters/05_annex/index
-    chapters/06_appendix/index
     chapters/07_references
