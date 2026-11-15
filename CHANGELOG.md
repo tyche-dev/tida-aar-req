@@ -12,6 +12,9 @@ Editorial; no requirement text changed.
 - Copyright: LICENSE keeps the template's MIT notice, as the MIT terms require, and adds the document's authors and
   contributors; `conf.py` names the same.
 - Oleh Vasylenko's role stated as originating proposer and reviewer, as he asked.
+- The template's page template (`_templates/page.html`) and sidebar script (`_static/osia-sidebar.js`) moved from
+  `src/doc` to `src/theme`, and `conf.py` points to them there: the TIDA DataTracker rejects `.html` and `.js` files in
+  the source folder. The site, the document text and the PDF are unchanged.
 
 ## 0.1 — 13 November 2026
 
