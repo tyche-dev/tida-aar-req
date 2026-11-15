@@ -51,6 +51,11 @@ History
       - —
       - TIDA
       - Incubation (proposed)
+    * - 0.2
+      - Co-author added; status and copyright wording corrected
+      - —
+      - TIDA
+      - Incubation (proposed)
 
 To access this Document as a PDF, open the published documentation site in your web
 browser and click the PDF download link, or navigate directly to
@@ -69,10 +74,14 @@ Authors
     * - Anton Sokolov (editor)
       - Tyche Institute MTÜ, Estonia
       - anton.sokolov@tyche.institute; GitHub @tyche-dev
+    * - Syed Amir Hamza
+      - Forkit AI
+      - GitHub @syedofc
 
 Contributors. The requirements come from the open thread on FG-TIDA/themes#1. Its originating proposer is Oleh
-Vasylenko (@OlehVasylenko2000), Management Company Elixir LLC (Ukraine). @danyka-icam co-drafted the lineage
-requirements and cases, and @syedofc the identity and state continuity requirements. Every clause in
+Vasylenko (@OlehVasylenko2000), Management Company Elixir LLC (Ukraine), who takes part as proposer and reviewer.
+@danyka-icam co-drafted the lineage requirements and cases. Co-author Syed Amir Hamza (@syedofc) co-drafted the
+identity and state continuity requirements (R8) and contributed use case #7. Every clause in
 :ref:`chapter-requirements` names its author.
 
 Keywords
@@ -116,8 +125,9 @@ please refer to the community's published resources.
 Note
 ----
 
-This document is a proposal for a new work item, submitted to FG-TIDA Incubation as an input to the first FG-TIDA
-meeting (Paris, 30 November – 1 December 2026). It is not adopted Focus Group text. The requirement text it summarises
+This document is a proposal for a new work item, to be submitted to FG-TIDA Incubation by 22 November 2026 as an
+input to the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). It is not yet registered, and it is not
+adopted Focus Group text. The requirement text it summarises
 stands in the posted comments listed in :ref:`chapter-annexes`.
 
 .. Intellectual Property Rights — section commented out. To restore it, remove the

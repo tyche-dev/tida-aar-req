@@ -6,9 +6,9 @@ master_doc = 'index'
 exclude_patterns = []
 pygments_style = 'colorful'
 project = 'AAR-REQ'
-release = '0.1'
+release = '0.2'
 html_title = "AAR-REQ"
-author = 'Anton Sokolov'
+author = 'Anton Sokolov, Syed Amir Hamza'
 
 numfig = True
 
@@ -24,7 +24,7 @@ latex_documents = [
 cover_title    = 'AAR-REQ'
 cover_series   = 'FG-TIDA proposal for a new work item'
 cover_subject  = 'Accountability and Attribution After an Agent Has Acted'
-cover_subtitle = 'Record-side requirements, draft 0.1'
+cover_subtitle = 'Record-side requirements, draft 0.2'
 
 extensions = ['sphinxcontrib.httpdomain','sphinxcontrib.plantuml','sphinxcontrib.openapi', 'sphinx_copybutton']
 # PlantUML command. On CI (GitHub Actions / Read the Docs) the `plantuml` package
@@ -109,7 +109,7 @@ html_theme_options = {
 }
 html_logo = "images/TIDA_logo.png"
 html_show_sourcelink = False
-copyright = '2026, Anton Sokolov'
+copyright = '2026, the AAR-REQ authors and contributors'
 html_context = {'project':project, 'version':release, 'copyright': copyright}
 html_last_updated_fmt = '%b %d, %Y'
 html_extra_path = []
@@ -179,7 +179,7 @@ latex_elements = {
 %% Neutralise sphinxmanual.cls's TOC page-numbering swaps so they don't fight
 %% our \osiafrontmatter / \osiamainmatter macros. Also override \@title /
 %% \release here (after Sphinx writes them from project / release in conf.py)
-%% so the running header reads "FG-TIDA, Release AAR-REQ 0.1" in the PDF only,
+%% so the running header reads "FG-TIDA, Release AAR-REQ 0.2" in the PDF only,
 %% without touching the HTML.
 \AtBeginDocument{%
   \renewcommand{\sphinxtableofcontents}{%
@@ -190,7 +190,7 @@ latex_elements = {
     \if@openright\cleardoublepage\else\clearpage\fi
   }%
   \title{FG-TIDA}%
-  \release{AAR-REQ 0.1}%
+  \release{AAR-REQ 0.2}%
 }
 
 %% Hide the next \chapter heading. Used to suppress the "Overview" chapter
