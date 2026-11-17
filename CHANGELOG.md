@@ -13,6 +13,8 @@ Editorial; no requirement text changed.
   ([comment](https://github.com/FG-TIDA/themes/pull/46#issuecomment-6909071846)).
 - @Abracadabrastartup (DEUSPROOF) named as contributor for open question 12, an asserted or witnessed moment
   ([comment](https://github.com/FG-TIDA/themes/pull/46#issuecomment-6927538276)).
+- Status wording: the README and the Note said "to be submitted … not yet registered". The proposal was submitted on
+  15 November 2026 and is recorded in the TIDA DataTracker as contribution FG-TIDA-INCUBATION-003, state Submitted.
 
 ## 0.2 — 15 November 2026
 
