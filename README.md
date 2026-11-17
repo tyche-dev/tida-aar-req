@@ -1,8 +1,9 @@
 # AAR-REQ: Accountability and Attribution After an Agent Has Acted
 
-Record-side requirements. **Proposal for a new FG-TIDA work item, draft 0.3**, to be submitted to FG-TIDA Incubation by
-22 November 2026 as an input to the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). It is not yet
-registered, and it is not adopted Focus Group text.
+Record-side requirements. **Proposal for a new FG-TIDA work item, draft 0.3**, submitted to FG-TIDA Incubation on
+15 November 2026 as an input to the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). The TIDA DataTracker
+records it as contribution [FG-TIDA-INCUBATION-003](https://tida-datatracker.org/doc/fg-tida-contribution-8/), state
+Submitted. It is not adopted Focus Group text.
 
 📄 **[Web page](https://tyche-dev.github.io/tida-aar-req/)** ·
 📥 **[PDF](https://tyche-dev.github.io/tida-aar-req/specification.pdf)**
