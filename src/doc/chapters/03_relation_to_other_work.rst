@@ -21,6 +21,13 @@ Relation to other work
 * **FG-TIDA/themes#27 and PR #28 (verifier-side requirements in regulated workflows).** Of the change-event record it
   proposes, its drafter wrote that the record-side requirements in themes#1 "define where this record belongs; this
   item specifies what the verifier must be able to read from it" (@zhaoxinghua09-cell, PR #28, 15 October 2026).
+* **Verifier-side interface to the record requirements (linked contribution record).** Four clauses, VR1 to VR4, on
+  the report a verifier makes: each check as a pair of who performed it and against what; the moment evaluated against;
+  what a pass claims and within what boundary; and the report as a claim the next party assesses. The record "adds
+  nothing to R1–R8 and alters nothing in them", and it stands beside this document, under its author's name
+  (@zhaoxinghua09-cell, PR #46, 16 November 2026):
+  https://github.com/LGD-Eval/evaluation-protocol/blob/f66c4658fd1c99b1e6fef99b99eed3865dc8e45f/FG-TIDA-AAR-VERIFIER-SIDE-INTERFACE.md.
+  Whether the four clauses move into this work item is for the group to decide.
 * **WG0, Use Cases and Terminology.** Use cases #7 (@syedofc) and #12 (@danyka-icam) supply the cases for D2.
 * **Format work.** Encodings and profiles for carried claims belong to the bodies that specify formats. The thread
   named the Internet Engineering Task Force (IETF) Remote Attestation Procedures (RATS) architecture and the Entity
