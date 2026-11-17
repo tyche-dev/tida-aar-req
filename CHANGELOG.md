@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3 — 17 November 2026
+
+Editorial; no requirement text changed.
+
+- Nika Novak (ICAM Research Programme, @danyka-icam) added as co-author for the lineage requirements and the LR1–LR5
+  and use case #12 mapping, on her request in
+  [FG-TIDA/themes#46](https://github.com/FG-TIDA/themes/pull/46#issuecomment-6918054096).
+- Xinghua Zhao (independent expert, @zhaoxinghua09-cell) added as co-author, named for the null-case refinement on R5
+  and for his linked contribution record on the verifier side (VR1 to VR4), which is listed under relation to other
+  work and stays beside this document
+  ([comment](https://github.com/FG-TIDA/themes/pull/46#issuecomment-6909071846)).
+- @Abracadabrastartup (DEUSPROOF) named as contributor for open question 12, an asserted or witnessed moment
+  ([comment](https://github.com/FG-TIDA/themes/pull/46#issuecomment-6927538276)).
+
 ## 0.2 — 15 November 2026
 
 Editorial; no requirement text changed.

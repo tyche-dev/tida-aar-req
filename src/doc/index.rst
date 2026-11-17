@@ -56,6 +56,11 @@ History
       - —
       - TIDA
       - Incubation (proposed)
+    * - 0.3
+      - Two co-authors and a contributor added; a linked contribution record listed
+      - —
+      - TIDA
+      - Incubation (proposed)
 
 To access this Document as a PDF, open the published documentation site in your web
 browser and click the PDF download link, or navigate directly to
@@ -77,11 +82,20 @@ Authors
     * - Syed Amir Hamza
       - Forkit AI
       - GitHub @syedofc
+    * - Nika Novak
+      - ICAM Research Programme
+      - GitHub @danyka-icam
+    * - Xinghua Zhao
+      - Independent expert
+      - GitHub @zhaoxinghua09-cell
 
 Contributors. The requirements come from the open thread on FG-TIDA/themes#1. Its originating proposer is Oleh
 Vasylenko (@OlehVasylenko2000), Management Company Elixir LLC (Ukraine), who takes part as proposer and reviewer.
-@danyka-icam co-drafted the lineage requirements and cases. Co-author Syed Amir Hamza (@syedofc) co-drafted the
-identity and state continuity requirements (R8) and contributed use case #7. Every clause in
+Co-author Nika Novak (@danyka-icam) co-drafted the lineage requirements and cases and contributed use case #12.
+Co-author Syed Amir Hamza (@syedofc) co-drafted the identity and state continuity requirements (R8) and contributed use
+case #7. Co-author Xinghua Zhao (@zhaoxinghua09-cell) is named for the null-case refinement on R5 and for the linked
+contribution record on the verifier side (:ref:`chapter-relation`). @Abracadabrastartup (DEUSPROOF) raised the point
+recorded under open question 12, an asserted or witnessed moment (a possible R7.2a). Every clause in
 :ref:`chapter-requirements` names its author.
 
 Keywords
