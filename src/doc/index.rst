@@ -141,7 +141,7 @@ Note
 
 This document is a proposal for a new work item, submitted to FG-TIDA Incubation on 15 November 2026 as an input to
 the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). The TIDA DataTracker records it as contribution
-FG-TIDA-INCUBATION-003, state Submitted. It is not adopted Focus Group text. The requirement text it summarises
+FG-TIDA-INCUBATION-002, state Submitted. It is not adopted Focus Group text. The requirement text it summarises
 stands in the posted comments listed in :ref:`chapter-annexes`.
 
 .. Intellectual Property Rights — section commented out. To restore it, remove the
