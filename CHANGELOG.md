@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3, editorial note — 27 November 2026
+
+No requirement text changed; the version recorded in the DataTracker is unchanged.
+
+- Contribution number: the TIDA DataTracker now lists this proposal as FG-TIDA-INCUBATION-002 (it showed 003 on
+  17 November). The README and the Note follow the tracker.
+- Proposed timetable: the editor takes part in the Paris meeting remotely, not in person.
+
 ## 0.3 — 17 November 2026
 
 Editorial; no requirement text changed.

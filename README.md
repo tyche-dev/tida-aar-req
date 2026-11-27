@@ -2,7 +2,7 @@
 
 Record-side requirements. **Proposal for a new FG-TIDA work item, draft 0.3**, submitted to FG-TIDA Incubation on
 15 November 2026 as an input to the first FG-TIDA meeting (Paris, 30 November – 1 December 2026). The TIDA DataTracker
-records it as contribution [FG-TIDA-INCUBATION-003](https://tida-datatracker.org/doc/fg-tida-contribution-8/), state
+records it as contribution [FG-TIDA-INCUBATION-002](https://tida-datatracker.org/doc/fg-tida-contribution-8/), state
 Submitted. It is not adopted Focus Group text.
 
 📄 **[Web page](https://tyche-dev.github.io/tida-aar-req/)** ·

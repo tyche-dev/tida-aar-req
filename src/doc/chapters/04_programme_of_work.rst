@@ -31,8 +31,8 @@ Proposed timetable
 ------------------
 
 Paris, 30 November – 1 December 2026: decision on the work item and its placement. Before the 2nd meeting (Geneva,
-26–27 January 2027): a consolidated D1 draft for review. The editor attends in Paris on 30 November and can present the
-item that day.
+26–27 January 2027): a consolidated D1 draft for review. The editor takes part remotely and can present the item
+when the meeting takes it up.
 
 Attribution
 -----------
